@@ -37,7 +37,7 @@ except FileNotFoundError:
 
 # Processamento de cada linha do arquivo
 for linha in linhas:
-    if linha.startswith("//") or linha.startswith("/") or linha.startswith("*/"):
+    if linha.startswith("//") or linha.startswith("*/"):
         continue
     s = linha
     while s:  # Enquanto houver caracteres na linha
