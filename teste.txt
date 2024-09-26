@@ -1,0 +1,29 @@
+int main() {
+    // Declaração de variáveis
+    int idade = 25; //erro
+    float altura = 1.75;
+    char inicial = 'A';
+    boolean maioridade = true;
+
+    // Estrutura condicional
+    if (idade >= 18) {
+        printf("Maior de idade\n"); //oii
+    } else {
+        printf("Menor de idade\n");
+    }
+
+    // Laço de repetição
+    for (int i = 0; i < 10; i++) {
+        printf("Contagem: %d\n", i);
+    }
+
+    // Operações matemáticas
+    int soma = idade + 5;
+    float media = (altura + 1.80) / 2.0;
+
+    // Entrada de dados
+    scanf("%d", &idade);
+
+    // Retorno
+    return 0;
+}
